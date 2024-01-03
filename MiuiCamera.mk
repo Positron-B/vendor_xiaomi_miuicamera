@@ -6,12 +6,18 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    MiuiCamera \
+    MiuiCamera
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    MiuiCamera
+
+ifeq ($(TARGET_CAMERA_EXTRAPHOTO),true)
+PRODUCT_PACKAGES += \
     MiuiExtraPhoto
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    MiuiCamera \
     MiuiExtraPhoto
+endif
 
 # Properties
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
