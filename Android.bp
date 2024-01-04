@@ -29,6 +29,12 @@ android_app_import {
     uses_libs: ["org.apache.http.legacy"],
 }
 
+cc_library {
+    name: "libgui_shim_miuicamera",
+    srcs: ["shims/libgui_shim_miuicamera.c"],
+    system_ext_specific: true,
+}
+
 prebuilt_etc {
     name: "privapp-permissions-miuicamera.xml",
     system_ext_specific: true,
