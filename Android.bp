@@ -15,7 +15,7 @@ android_app_import {
     ],
     presigned: true,
     privileged: true,
-    product_specific: true,
+    system_ext_specific: true,
     required: [
         "privapp-permissions-miuicamera.xml",
     ],
@@ -25,13 +25,13 @@ android_app_import {
     name: "MiuiExtraPhoto",
     apk: "prebuilt/MiuiExtraPhoto.apk",
     certificate: "media",
-    product_specific: true,
+    system_ext_specific: true,
     uses_libs: ["org.apache.http.legacy"],
 }
 
 prebuilt_etc {
     name: "privapp-permissions-miuicamera.xml",
-    product_specific: true,
+    system_ext_specific: true,
     src: "permissions/privapp-permissions-miuicamera.xml",
     sub_dir: "permissions",
 }
