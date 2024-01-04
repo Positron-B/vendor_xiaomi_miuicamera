@@ -27,3 +27,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.miui.notch=1 \
     ro.product.mod_device=_global \
     vendor.camera.aux.packagelist=com.android.camera
+
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/xiaomi/miuicamera
