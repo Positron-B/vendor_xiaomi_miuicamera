@@ -21,6 +21,22 @@ android_app_import {
     required: [
         "privapp-permissions-miuicamera.xml",
     ],
+    optional_uses_libs: [
+        "libSNPE.so",
+        "libOpenCL.so",
+        "libcdsprpc.so",
+        "libmialgo_ai_vision.so",
+        "libxmi_slow_motion_mein.so",
+        "libmialgo_utils.so",
+        "libmiocr.so",
+        "libcamera_ispinterface_jni.xiaomi.so",
+        "libcamera_algoup_jni.xiaomi.so",
+        "libcamera_imagecodec_jni.xiaomi.so",
+        "libcamera_jpegutil_jni.xiaomi.so",
+        "libneuron_adapter_mgvi.so",
+        "libneuron_adapter.so",
+        "libneuronusdk_adapter.mtk.so",
+    ],
 }
 
 android_app_import {

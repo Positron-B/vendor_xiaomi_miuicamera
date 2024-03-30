@@ -34,7 +34,6 @@
 * cmi
 * courbet
 * courbetin
-* cupid
 * curtana
 * curtanacn
 * dandelion
@@ -48,6 +47,7 @@
 * fleur
 * fleur_pro
 * fog
+* frost
 * galahad
 * gauguin
 * gauguinin
@@ -59,14 +59,11 @@
 * haydn_pro
 * haydnin
 * haydnin_pro
-* ingres
 * iris
 * joyeuse
 * karna
 * lancelot
 * lemon
-* light
-* light_pro
 * lilac
 * lime
 * limegl
@@ -76,7 +73,6 @@
 * maltose
 * mars
 * marsgl
-* matisse
 * merlin
 * merlinnfc
 * miel
@@ -84,10 +80,6 @@
 * mojito
 * mona
 * monet
-* munch
-* munch_pro
-* munchin
-* munchin_pro
 * nabu
 * odin
 * opal
@@ -109,7 +101,6 @@
 * rosemary
 * rosemaryp
 * rosemaryp_pro
-* rubens
 * secret
 * secretin
 * selene
@@ -126,8 +117,6 @@
 * sweet_pro
 * sweetin
 * sweetin_pro
-* thunder
-* thunder_pro
 * thyme
 * toco
 * tocoin
@@ -141,11 +130,4 @@
 * vili
 * viva
 * wind
-* xaga
-* xagain
-* xagapro
-* xagapro_pro
-* xagaproin_pro
 * xig02
-* zeus
-* zijin
